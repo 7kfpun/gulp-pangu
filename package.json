@@ -1,0 +1,39 @@
+{
+  "name": "gulp-pangu",
+  "version": "0.0.1",
+  "description": "Gulp extension to add space between .",
+  "main": "./index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/7kfpun/gulp-pangu.git"
+  },
+  "keywords": [
+    "pangu",
+    "gulpplugin",
+    "eventstream"
+  ],
+  "author": {
+    "name": "kf",
+    "email": "7kfpun@gmail.com",
+    "url": "http://github.com/7kfpun"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7kfpun/gulp-pangu/issues"
+  },
+  "dependencies": {
+    "through2": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  }
+}
