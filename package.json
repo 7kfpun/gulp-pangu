@@ -28,11 +28,11 @@
     "url": "https://github.com/7kfpun/gulp-pangu/issues"
   },
   "dependencies": {
-    "through2": "*"
+    "through2": "*",
+    "gulp-util": "^3.0.4"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-util": "^3.0.4",
     "mocha": "^2.2.1",
     "should": "^5.2.0"
   }
