@@ -70,8 +70,13 @@ var pangu = function() {
     }
 
     if (file.isBuffer()) {
+      var textLine = file.contents.toString();
+      while (textLine !== insert_space(textLine)) {
+        textLine = insert_space(textLine);
+      }
+
       file.contents = Buffer.concat([
-        new Buffer(insert_space(insert_space(file.contents.toString())))
+        new Buffer(textLine)
       ]);
     }
 
