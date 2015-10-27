@@ -1,5 +1,7 @@
 # gulp-pangu [![Build Status](https://travis-ci.org/7kfpun/gulp-pangu.svg)](https://travis-ci.org/7kfpun/gulp-pangu)
 
+[![NPM](https://nodei.co/npm/gulp-pangu.png?downloads=true&stars=true)](https://nodei.co/npm/gulp-pangu/)
+
 gulp-pangu is a [Gulp](https://github.com/gulpjs/gulp) extension to add space between Chinese and English characters to file(s) in the pipeline.
 
 The algorithm is from [paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing)
